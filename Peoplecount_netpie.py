@@ -6,9 +6,9 @@ from imutils.video import VideoStream
 import time
 import argparse
 
-key = 'McUcXXF5zMeIU6a'
-secret = 'ntIKZ9RyRjAK9txTBTjbuf5aw'
-app = 'SmartOfficeAt418B'
+key = 'your key'
+secret = 'your secret key'
+app = 'your app id'
 microgear.create(key,secret,app,{'debugmode': True})
 connected = False
 
